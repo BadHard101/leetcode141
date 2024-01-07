@@ -1,15 +1,5 @@
 import java.util.HashSet;
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-        next = null;
-    }
-}
-
 public class Main {
     public boolean hasCycle(ListNode head) {
         if (head == null) return false;
